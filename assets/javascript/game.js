@@ -14,22 +14,16 @@ let alphabet = [
 			"n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"
 			];
 
-
-
-
-
 let pyschic = () =>  {
 	pyschicChoice = alphabet[Math.floor(Math.random() * alphabet.length)];
 
 }
-
 
 let resetGame = () => {
 	guessesLeft = 13;
 	guessesSoFar = [];
 	pyschic();
 };
-
 
 document.onkeyup = (event) => {
 
